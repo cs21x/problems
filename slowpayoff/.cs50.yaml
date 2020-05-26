@@ -3,7 +3,7 @@ check50:
     check0:
       - run: python3 slowpayoff.py
         stdin: |
-          100
+          101
           0.1
         stdout: |
           RESULT
