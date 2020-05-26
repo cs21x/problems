@@ -1,13 +1,1 @@
-check50:
-  checks:
-    check0:
-      - run: python3 slowpayoff.py
-        stdin: |
-          100
-          0.1
-        stdout: |
-          Enter the outstanding balance on your credit card: Enter the annual credit card interest rate: RESULT
-          Monthly payment to pay off debt in 1 year: 10
-          Number of months needed: 11
-          Balance: -5.16
-        exit: 0
+check50: true
