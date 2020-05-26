@@ -6,6 +6,8 @@ check50:
           100
           0.1
         stdout: |
+          Enter the outstanding balance on your credit card: 100
+          Enter the annual credit card interest rate: 0.1
           RESULT
           Monthly payment to pay off debt in 1 year: 10
           Number of months needed: 11
