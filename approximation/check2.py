@@ -1,4 +1,5 @@
-from approximation import evaluate_poly, compute_deriv, compute_root
+from approximation import evaluate_poly
 
 poly = (3, 5, -4)
-evaluate_poly(poly, 0)
+actual = evaluate_poly(poly, 0)
+print(actual)
