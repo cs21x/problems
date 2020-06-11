@@ -36,8 +36,8 @@ def check4():
 
 @check50.check(check2)
 def check5():
-	"""For p(x) = -4x^2 + 5x + 3, check if p(2) = 3"""
-	check50.run("python3 check5.py").stdout("4").exit(0)
+	"""For p(x) = -4x^2 + 5x + 3, check if p(2) = -3"""
+	check50.run("python3 check5.py").stdout("-3").exit(0)
 
 @check50.check(check2)
 def check6():
