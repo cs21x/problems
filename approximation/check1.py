@@ -1,1 +1,0 @@
-from approximation import evaluate_poly, compute_deriv, compute_root
