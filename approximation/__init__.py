@@ -2,10 +2,17 @@ import check50
 
 @check50.check()
 def check0():
-    """Check if approximation.py exists"""
-    check50.exists("approximation.py")
-    check50.include("check1.py")
-    check50.include("check2.py")
+	"""Check if approximation.py exists"""
+	check50.exists("approximation.py")
+	check50.include("check2.py")
+	check50.include("check3.py")
+	check50.include("check4.py")
+	check50.include("check5.py")
+	check50.include("check6.py")
+	check50.include("check7.py")
+	check50.include("check8.py")
+	check50.include("check9.py")
+	check50.include("check10.py")
 
 @check50.check(check0)
 def check1():
