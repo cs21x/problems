@@ -52,7 +52,7 @@ def check7():
 @check50.check(check2)
 def check8():
 	"""For f(x) = 12x^2 + 18x + 35, check if f'(x) = 24x + 18"""
-	check50.run("python3 check8.py").stdout("(18.0, 24.0))").exit(0)
+	check50.run("python3 check8.py").stdout("(18.0, 24.0)").exit(0)
 
 @check50.check(check2)
 def check9():
